@@ -75,6 +75,7 @@ Self explainded.<br /><br />
 Self explainded.<br /><br />
 
 ## Error Codes:<br />
+Call an error by useing <code>ErrorCode(errorCode);</code>
 
 #### Server Errors:<br />
 <code>400: "We're sorry but a bad request has been sent."</code><br />
