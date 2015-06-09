@@ -16,7 +16,7 @@ To run this plugin simply use the following command<br />
 <code>returnUrl: "http://www.CurentDomain.com/The/Page/Frame/Is/On", </code><br />
 <code>videoID: "#########", </code><br />
 <code>brand: "false", </code><br />
-<code>PlayButton: "HidePlayBtn", </code><br />
+<code>PlayButton: "ShowPlayBtn", </code><br />
 <code>forceplayer: "false",</code><br />
 <code>sharing: "true",</code><br />
 <code>size: "Large",</code><br />
