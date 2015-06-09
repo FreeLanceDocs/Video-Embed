@@ -9,9 +9,9 @@ $.fn.EmbedVideo = function( options ) {
 		returnUrl: window.location.href,
 		videoID: "123456789",
 		brand: "false",
-		poster: "",
+		poster: "HasPlayBtn",
 		playBtn: "true",
-		forceplayer: "false",
+		forceplayer: "auto",
 		sharing: "true",
 		width: "631px",
 		height: "356px",
@@ -23,11 +23,11 @@ $.fn.EmbedVideo = function( options ) {
 		FrameURL += '&sharing='+defaults.sharing+'';
 	}
 	
-	if(defaults.poster !== ''){
+	if(defaults.poster !== 'HasPlayBtn'){
 		FrameURL += '&poster='+defaults.poster+'';
 	}
 	
-	if(defaults.forceplayer !== 'false'){
+	if(defaults.forceplayer !== 'auto'){
 		FrameURL += '&forceplayer='+defaults.forceplayer+'';
 	}
 	
