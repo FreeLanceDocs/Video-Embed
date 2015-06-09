@@ -73,3 +73,22 @@ Self explainded.<br /><br />
 Self explainded.<br /><br />
 <code>allowfullscreen: "true",</code><br /> 
 Self explainded.<br /><br />
+
+## Error Codes:<br />
+
+#### Server Errors:<br />
+<code>400: "We're sorry but a bad request has been sent."</code><br />
+<code>404: "We're sorry but this video was not found."</code><br />
+<code>403: "We're sorry but this video is Forbidden."</code><br />
+<code>405: "The method specified in the request is not allowed."</code><br />
+<code>408: "The server timed out waiting for the request."</code><br />
+<code>500: "We're sorry but there has been a server error."</code><br />
+<code>504: "The gateway seems to have timed out."</code><br />
+<code>505: "The server doesn't support the HTTP protocol version used in the request."</code><br />
+
+#### Plugin Errors:<br />
+<code>size: "These video dimensions are unsupported."</code><br />
+<code>vpw: "Could not determin window width."</code><br />
+<code>vph: "Could not determin window height."</code><br />
+<code>rurl: "We could not find a return url."</code><br />
+<code>VPF: "We're sorry but the video could not load."</code><br />
