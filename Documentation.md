@@ -20,6 +20,7 @@ To run this plugin simply use the following command<br />
 <code>playBtn: "true", </code><br />
 <code>forceplayer: "false",</code><br />
 <code>sharing: "true",</code><br />
+<code>size: "Large",</code><br />
 <code>width: "631px",</code><br />
 <code>height: "356px",</code><br />
 <code>scrolling: "none",</code><br />
@@ -57,6 +58,9 @@ If you wish yo foce the Flash player use <code>flash</code><br /><br />
 To display the social buttons leave set to <code>true</code><br />
 To hide the social buttons change to <code>false</code><br />
 To show the compact social buttons change to <code>compact</code><br /><br />
+
+<code>size: "Large",</code><br />
+The size control sets a preset width and height to keep the video in the correct dimentions. This is the preffered way to set the width and height.
 
 <code>width: "631px",</code><br />
 Self explainded.<br /><br />
