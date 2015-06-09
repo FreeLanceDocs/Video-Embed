@@ -31,10 +31,10 @@ To run this plugin simply use the following command<br />
 
 ## The BreakDown:<br />
 
-<code>BaseUrl: "http://www.CuurentDomain.com", </code><br />
+<code>BaseUrl: "http://www.CurentDomain.com", </code><br />
 This should be set to whatever domain you are hosted on. <i>If left empty this will auto set</i><br /><br />
 
-<code>returnUrl: "http://www.CuurentDomain.com/The/Page/Frame/Is/On", </code><br />
+<code>returnUrl: "http://www.CurentDomain.com/The/Page/Frame/Is/On", </code><br />
 This should be set to the page where the video is embeded but you can change it to share any page you like. <i>If left empty this will auto set</i><br /><br />
 
 <code>videoID: "#########", </code><br />
