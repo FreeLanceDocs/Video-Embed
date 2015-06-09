@@ -25,4 +25,4 @@ To run this plugin simply use the following command<br />
 <code>scrolling: "none",</code><br />
 <code>webkitallowfullscreen: "true",</code><br />
 <code>mozallowfullscreen: "true",</code><br />
-<code>allowfullscreen: "true",</code><br />
+<code>allowfullscreen: "true",</code><br /> 
