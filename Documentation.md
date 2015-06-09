@@ -12,8 +12,8 @@ To run this plugin simply use the following command<br />
 
 ## Defaults:<br />
 
-<code>BaseUrl: "http://www.CuurentDomain.com", </code><br />
-<code>returnUrl: "http://www.CuurentDomain.com/The/Page/Frame/Is/On", </code><br />
+<code>BaseUrl: "http://www.CurentDomain.com", </code><br />
+<code>returnUrl: "http://www.CurentDomain.com/The/Page/Frame/Is/On", </code><br />
 <code>videoID: "#########", </code><br />
 <code>brand: "false", </code><br />
 <code>poster: "HidePlayBtn", </code><br />
