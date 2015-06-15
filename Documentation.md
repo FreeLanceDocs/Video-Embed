@@ -58,8 +58,14 @@ To display the social buttons leave set to <code>true</code><br />
 To hide the social buttons change to <code>false</code><br />
 To show the compact social buttons change to <code>compact</code><br /><br />
 
-<code>size: "Large", "Medium", "Small"</code><br />
+<code>size: "default", "large", "medium", "small"</code><br />
 The size control sets a preset width and height to keep the video in the correct dimentions. This is the preffered way to set the width and height.
+<br />
+<code>"default": w=631px, h=356px</code>
+<code>"large": w=1000px, h=563px</code>
+<code>"medium": w=300px, h=169px</code>
+<code>"small": w=213px, h=120px</code>
+
 
 <code>width: "631px",</code><br />
 Self explainded.<br /><br />
