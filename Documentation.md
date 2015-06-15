@@ -14,18 +14,18 @@ To run this plugin, simply use the following command:<br />
 
 <code>BaseUrl: "http://www.CurentDomain.com", </code><br />
 <code>returnUrl: "http://www.CurentDomain.com/The/Page/Frame/Is/On", </code><br />
-<code>videoID: "#########", </code><br />
+<code>videoID: "", </code><br />
 <code>brand: "false", </code><br />
 <code>PlayButton: "ShowPlayBtn", </code><br />
 <code>forceplayer: "false",</code><br />
 <code>sharing: "true",</code><br />
-<code>size: "Large",</code><br />
-<code>width: "631px",</code><br />
-<code>height: "356px",</code><br />
-<code>scrolling: "none",</code><br />
-<code>webkitallowfullscreen: "true",</code><br />
-<code>mozallowfullscreen: "true",</code><br />
-<code>allowfullscreen: "true",</code><br /> 
+<code>size: "default",</code><br />
+<code>width: "",</code><br />
+<code>height: "",</code><br />
+<code>fullscreen: "true",</code><br />
+<code>error: "false",</code><br />
+<code>error_msg: ""</code><br />
+ 
 
 
 
@@ -66,19 +66,6 @@ The size control sets a preset width and height to keep the video in the correct
 <code>"medium": w=300px, h=169px</code>
 <code>"small": w=213px, h=120px</code>
 
-
-<code>width: "631px",</code><br />
-Self explainded.<br /><br />
-<code>height: "356px",</code><br />
-Self explainded.<br /><br />
-<code>scrolling: "none",</code><br />
-Self explainded.<br /><br />
-<code>webkitallowfullscreen: "true",</code><br />
-Self explainded.<br /><br />
-<code>mozallowfullscreen: "true",</code><br />
-Self explainded.<br /><br />
-<code>allowfullscreen: "true",</code><br /> 
-Self explainded.<br /><br />
 
 ## Error Codes:<br />
 Call an error by useing <code>ErrorCode(errorCode);</code>
