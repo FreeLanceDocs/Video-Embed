@@ -1,12 +1,12 @@
 # Documentation
-The how to's for the embeded video plugin
+The how to's for the video plugin
 
-<b>Insatllation:</b> <br />
+<b>Installation:</b> <br />
 Include Jquery version 1.11 or higher<br />
 Include the EmbedVideo.js script<br />
 
 <b>Initialization:</b><br />
-To run this plugin simply use the following command<br />
+To run this plugin, simply use the following command:<br />
 <code>$('VideoElement').EmbedVideo({ videoID: "THE_VIDEO_ID" });</code>
 <br />
 
@@ -29,7 +29,7 @@ To run this plugin simply use the following command<br />
 
 
 
-## The BreakDown:<br />
+## The Breakdown:<br />
 
 <code>BaseUrl: "http://www.CurentDomain.com", </code><br />
 This should be set to whatever domain you are hosted on. <i>If left empty this will auto set</i><br /><br />
