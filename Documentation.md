@@ -35,23 +35,20 @@ To run this plugin, simply use the following command:<br />
 This should be set to whatever domain you are hosted on. <i>If left empty this will auto set</i><br /><br />
 
 <code>returnUrl: "http://www.CurentDomain.com/The/Page/Frame/Is/On", </code><br />
-This should be set to the page where the video is embeded but you can change it to share any page you like. <i>If left empty this will auto set</i><br /><br />
+This should be set to the page where the video is embedded but you can change it to share any page you like. <i>If left empty this will auto set</i><br /><br />
 
 <code>videoID: "#########", </code><br />
 This is the only required field. Here is were you select the video to be played.<br /><br />
 
 <code>brand: "false", </code><br />
-Branding is automatically disabled when the video is on your sites, but enables when embedded on a external site. Set this to <b>true</b> for branding to display localy.<br /><br />
+Branding is automatically disabled when the video is on your sites, but enables when embedded on a external site. Set this to <b>true</b> for branding to display locally.<br /><br />
 
-<code>PlayButton: "HidePlayBtn", </code><br />
-If the Video poster has a play button set this to HidePlayBtn.<br /><br />
-
-<code>playBtn: "true", </code><br />
-Use to show play button or not.<br /><br />
+<code>PlayButton: "ShowPlayBtn", </code><br />
+If the Video poster has a play button set this to <code>HidePlayBtn</code>.<br /><br />
 
 <code>forceplayer: "false",</code><br />
-If you wish yo foce the HTML5 player use <code>HTML5</code><br />
-If you wish yo foce the Flash player use <code>flash</code><br /><br />
+If you wish yo force the HTML5 player use <code>HTML5</code><br />
+If you wish yo force the Flash player use <code>flash</code><br /><br />
 
 <code>sharing: "true",</code><br />
 To display the social buttons leave set to <code>true</code><br />
@@ -59,7 +56,7 @@ To hide the social buttons change to <code>false</code><br />
 To show the compact social buttons change to <code>compact</code><br /><br />
 
 <code>size: "default", "large", "medium", "small"</code><br />
-The size control sets a preset width and height to keep the video in the correct dimentions. This is the preffered way to set the width and height.
+The size control sets a preset width and height to keep the video in the correct dimensions. This is the preferred way to set the width and height.
 <br />
 <code>"default": w=631px, h=356px</code>
 <code>"large": w=1000px, h=563px</code>
@@ -68,7 +65,7 @@ The size control sets a preset width and height to keep the video in the correct
 
 
 ## Error Codes:<br />
-Call an error by useing <code>ErrorCode(errorCode);</code>
+Call an error by using <code>ErrorCode(errorCode);</code>
 
 #### Server Errors:<br />
 <code>400: "We're sorry but a bad request has been sent."</code><br />
@@ -82,8 +79,8 @@ Call an error by useing <code>ErrorCode(errorCode);</code>
 
 #### Plugin Errors:<br />
 <code>size: "These video dimensions are unsupported."</code><br />
-<code>vpw: "Could not determin window width."</code><br />
-<code>vph: "Could not determin window height."</code><br />
+<code>vpw: "Could not determine window width."</code><br />
+<code>vph: "Could not determine window height."</code><br />
 <code>rurl: "We could not find a return url."</code><br />
 <code>VPF: "We're sorry but the video could not load."</code><br />
 <code>src: "It appears there is no video source attached."</code><br />
