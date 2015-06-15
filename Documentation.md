@@ -67,7 +67,7 @@ The size control sets a preset width and height to keep the video in the correct
 ## Error Codes:<br />
 Call an error by using <code>ErrorCode(errorCode);</code>
 
-#### Server Errors:<br />
+#### Server Errors::<br />
 <code>400: "We're sorry but a bad request has been sent."</code><br />
 <code>404: "We're sorry but this video was not found."</code><br />
 <code>403: "We're sorry but this video is Forbidden."</code><br />
