@@ -16,7 +16,7 @@ To run this plugin, simply use the following command:<br />
 <code>returnUrl: "http://www.CurentDomain.com/The/Page/Frame/Is/On", </code><br />
 <code>videoID: "", </code><br />
 <code>brand: "false", </code><br />
-<code>PlayButton: "ShowPlayBtn", </code><br />
+<code>PlayButton: true", </code><br />
 <code>forceplayer: "false",</code><br />
 <code>sharing: "true",</code><br />
 <code>size: "default",</code><br />
@@ -43,8 +43,8 @@ This is the only required field. Here is were you select the video to be played.
 <code>brand: "false", </code><br />
 Branding is automatically disabled when the video is on your sites, but enables when embedded on a external site. Set this to <b>true</b> for branding to display locally.<br /><br />
 
-<code>PlayButton: "ShowPlayBtn", </code><br />
-If the Video poster has a play button set this to <code>HidePlayBtn</code>.<br /><br />
+<code>PlayButton: true, </code><br />
+If the Video poster has a play button set this to <code>false</code>.<br /><br />
 
 <code>forceplayer: "false",</code><br />
 If you wish yo force the HTML5 player use <code>HTML5</code><br />
