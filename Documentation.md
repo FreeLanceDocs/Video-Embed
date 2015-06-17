@@ -15,16 +15,16 @@ To run this plugin, simply use the following command:<br />
 <code>BaseUrl: "http://www.CurentDomain.com", </code><br />
 <code>returnUrl: "http://www.CurentDomain.com/The/Page/Frame/Is/On", </code><br />
 <code>videoID: "", </code><br />
-<code>brand: "false", </code><br />
-<code>PlayButton: true", </code><br />
-<code>forceplayer: "false",</code><br />
-<code>sharing: "true",</code><br />
+<code>brand: false, </code><br />
+<code>PlayButton: true, </code><br />
+<code>forceplayer: false,</code><br />
+<code>sharing: true,</code><br />
 <code>size: "default",</code><br />
 <code>width: "",</code><br />
 <code>height: "",</code><br />
-<code>fullscreen: "true",</code><br />
-<code>error: "false",</code><br />
-<code>error_msg: ""</code><br />
+<code>fullscreen: true,</code><br />
+<code>error: false,</code><br />
+<code>error_msg: false</code><br />
  
 
 
@@ -40,17 +40,17 @@ This should be set to the page where the video is embedded but you can change it
 <code>videoID: "#########", </code><br />
 This is the only required field. Here is were you select the video to be played.<br /><br />
 
-<code>brand: "false", </code><br />
+<code>brand: false, </code><br />
 Branding is automatically disabled when the video is on your sites, but enables when embedded on a external site. Set this to <b>true</b> for branding to display locally.<br /><br />
 
 <code>PlayButton: true, </code><br />
 If the Video poster has a play button set this to <code>false</code>.<br /><br />
 
-<code>forceplayer: "false",</code><br />
+<code>forceplayer: false,</code><br />
 If you wish yo force the HTML5 player use <code>HTML5</code><br />
 If you wish yo force the Flash player use <code>flash</code><br /><br />
 
-<code>sharing: "true",</code><br />
+<code>sharing: true,</code><br />
 To display the social buttons leave set to <code>true</code><br />
 To hide the social buttons change to <code>false</code><br />
 To show the compact social buttons change to <code>compact</code><br /><br />
