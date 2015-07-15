@@ -15,6 +15,7 @@ To run this plugin, simply use the following command:<br />
 <code>BaseUrl: "http://www.CurentDomain.com", </code><br />
 <code>returnUrl: "http://www.CurentDomain.com/The/Page/Frame/Is/On", </code><br />
 <code>videoID: "", </code><br />
+<code>year: "", </code><br />
 <code>brand: false, </code><br />
 <code>PlayButton: true, </code><br />
 <code>forceplayer: false,</code><br />
@@ -38,7 +39,10 @@ This should be set to whatever domain you are hosted on. <i>If left empty this w
 This should be set to the page where the video is embedded but you can change it to share any page you like. <i>If left empty this will auto set</i><br /><br />
 
 <code>videoID: "#########", </code><br />
-This is the only required field. Here is were you select the video to be played.<br /><br />
+This is a required field. Here is were you select the video to be played.<br /><br />
+
+<code>year: "2015", </code><br />
+This is a required field. Here is were you select the video year/dir the video json is stores<br /><br />
 
 <code>brand: false, </code><br />
 Branding is automatically disabled when the video is on your sites, but enables when embedded on a external site. Set this to <b>true</b> for branding to display locally.<br /><br />
