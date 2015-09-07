@@ -7,7 +7,7 @@ Include the EmbedVideo.js script<br />
 
 <b>Initialization:</b><br />
 To run this plugin, simply use the following command:<br />
-<code>$('VideoElement').EmbedVideo({ videoID: "THE_VIDEO_ID" });</code>
+<code>$('VideoElement').EmbedVideo({ videoID: "THE_VIDEO_ID", year: "0000" });</code>
 <br />
 
 ## Defaults:<br />
