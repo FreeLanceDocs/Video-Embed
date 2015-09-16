@@ -138,7 +138,7 @@ Is fired if the video fails to load<br />
 when building a embed function use the following to add on screen links<br />
 
 <code>
-cuePoints: [1000, 2000, 3000],<br />
+cuePoints: [1000, 2000, 3000],<br /><br />
 		onCuepoint: function (clip, point, ui) {<br />
 		 $.fn.EmbedVideo.EmbedVideoAds(ui, 'LINK_POSITION', 'IMAGE_URL', 'LINK_URL', DISPLAY_TIME_MS);<br />	
 		}<br />
