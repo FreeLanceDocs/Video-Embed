@@ -25,7 +25,27 @@ To run this plugin, simply use the following command:<br />
 <code>height: "",</code><br />
 <code>fullscreen: true,</code><br />
 <code>error: false,</code><br />
-<code>error_msg: false</code><br />
+<code>error_msg: false,</code><br />
+<code>gatracker: true,</code><br />
+<code>id: '',</code><br />
+<code>scrollTo: '',</code><br />
+<code>gatracker: true,</code><br />
+<code>connectType: 'http',</code><br />
+<code>data: false,</code><br />
+<code>template: '',</code><br />
+<code>filter: '',</code><br />
+<code>debug: false,</code><br />
+<code>cuePoints: [],</code><br />
+
+<code>load_done   : function(ui) {},</code><br />
+<code>load_fail   : function(ui) {},</code><br />
+<code>onPlay      : function(ui) {},</code><br />
+<code>onPause     : function(ui) {},</code><br />
+<code>onResume    : function(ui) {},</code><br />
+<code>onDone      : function(ui) {},</code><br />
+<code>onCuepoint  : function(clip, point, ui) {}</code><br />
+
+
  
 
 
@@ -66,6 +86,76 @@ The size control sets a preset width and height to keep the video in the correct
 <code>"large": w=1000px, h=563px</code>
 <code>"medium": w=300px, h=169px</code>
 <code>"small": w=213px, h=120px</code>
+
+<br />
+
+<code>gatracker: true,</code><br />
+Allows Google to track video Events<br />
+
+<code>scrollTo: '',</code><br />
+Spot on screen to scroll to<br />
+
+<code>data: false,</code><br />
+Does not show a video but creates a textbox with all the video json<br />
+
+<code>template: '',</code><br />
+Used with CSS to display the video<br />
+
+<code>filter: '',</code><br />
+Seperated with cammas (,) add tags, filter: 'tag1, tag2, tag3' this can be used to pull multiple videos as a playlist (NOTE this can not be used in the same function as a single vidoe)<br />
+
+<code>debug: false,</code><br />
+Set to true to allow console loggin<br />
+
+<code>cuePoints: [],</code><br />
+An array of seconds in ms, these will be used to fire a function on each cue<br />
+
+<code>onCuepoint: function(clip, point, ui) {}</code><br />
+Is fired on each <code>cuePoints</code><br />
+
+<code>onPlay: function(ui) {},}</code><br />
+Is fired when the video is played<br />
+
+<code>onPause: function(ui) {},}</code><br />
+Is fired when the video is paused<br />
+
+<code>onResume: function(ui) {},}</code><br />
+Is fired when the video is paused<br />
+
+<code>onPause: function(ui) {},}</code><br />
+Is fired when the video is resumed after pause<br />
+
+<code>onDone: function(ui) {},}</code><br />
+Is fired when the video is finnished<br />
+
+<code>load_done: function(ui) {},}</code><br />
+Is fired when the video had finnished loading<br />
+
+<code>load_fail: function(ui) {},}</code><br />
+Is fired if the video fails to load<br />
+
+## Using On screen links with Cue Points:<br />
+when building a embed function use the following to add on screen links<br />
+
+<code>
+cuePoints: [3000, 12000],<br />
+		onCuepoint: function (clip, point, ui) {<br />
+		 $.fn.EmbedVideo.EmbedVideoAds(ui, 'LINK_POSITION', 'IMAGE_URL', 'LINK_URL', DISPLAY_TIME_MS);<br />	
+		}<br />
+}
+</code>
+<br />
+<code>cuePoints: [AN ARRAY OF POINT TO FIRE THIS FUNCTION]</code><br />
+
+<code>clip: All the data on the video in frame</code>
+<code>point: This is the current cuePoint being fired. can be used with an if statment to show other links</code>
+<code>ui: This is passed from the function and is used to tell the Link what video to display on.</code>
+<code>LINK_POSITION: left bottom, center bottom, right bottom, left top, center top, right top, center center</code>
+<code>IMAGE_URL: url to the image in link</code>
+<code>LINK_URLL: where the link will lead to</code>
+<code>DISPLAY_TIME_MS: time in  milliseconds that link will be displayed.</code>
+
+
 
 
 ## Error Codes:<br />
