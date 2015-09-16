@@ -147,13 +147,13 @@ cuePoints: [3000, 12000],<br />
 <br />
 <code>cuePoints: [AN ARRAY OF POINT TO FIRE THIS FUNCTION]</code><br />
 
-<code>clip: All the data on the video in frame</code>
-<code>point: This is the current cuePoint being fired. can be used with an if statment to show other links</code>
-<code>ui: This is passed from the function and is used to tell the Link what video to display on.</code>
-<code>LINK_POSITION: left bottom, center bottom, right bottom, left top, center top, right top, center center</code>
-<code>IMAGE_URL: url to the image in link</code>
-<code>LINK_URLL: where the link will lead to</code>
-<code>DISPLAY_TIME_MS: time in  milliseconds that link will be displayed.</code>
+<code>clip: All the data on the video in frame</code><br />
+<code>point: This is the current cuePoint being fired. can be used with an if statment to show other links</code><br />
+<code>ui: This is passed from the function and is used to tell the Link what video to display on.</code><br />
+<code>LINK_POSITION: left bottom, center bottom, right bottom, left top, center top, right top, center center</code><br />
+<code>IMAGE_URL: url to the image in link</code><br />
+<code>LINK_URLL: where the link will lead to</code><br />
+<code>DISPLAY_TIME_MS: time in  milliseconds that link will be displayed.</code><br />
 
 
 
