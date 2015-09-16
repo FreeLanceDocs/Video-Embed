@@ -71,8 +71,8 @@ Branding is automatically disabled when the video is on your sites, but enables 
 If the Video poster has a play button set this to <code>false</code>.<br /><br />
 
 <code>forceplayer: false,</code><br />
-If you wish yo force the HTML5 player use <code>HTML5</code><br />
-If you wish yo force the Flash player use <code>flash</code><br /><br />
+If you wish you force the HTML5 player use <code>HTML5</code><br />
+If you wish you force the Flash player use <code>flash</code><br /><br />
 
 <code>sharing: true,</code><br />
 To display the social buttons leave set to <code>true</code><br />
@@ -102,10 +102,10 @@ Does not show a video but creates a textbox with all the video json<br />
 Used with CSS to display the video<br />
 
 <code>filter: '',</code><br />
-Seperated with cammas (,) add tags, filter: 'tag1, tag2, tag3' this can be used to pull multiple videos as a playlist (NOTE this can not be used in the same function as a single vidoe)<br />
+Seperated with cammas (,) add tags, filter: 'tag1, tag2, tag3' this can be used to pull multiple videos as a playlist (NOTE this can not be used in the same function as a single video)<br />
 
 <code>debug: false,</code><br />
-Set to true to allow console loggin<br />
+Set to true to allow console logging<br />
 
 <code>cuePoints: [],</code><br />
 An array of seconds in ms, these will be used to fire a function on each cue<br />
@@ -138,7 +138,7 @@ Is fired if the video fails to load<br />
 when building a embed function use the following to add on screen links<br />
 
 <code>
-cuePoints: [3000, 12000],<br />
+cuePoints: [1000, 2000, 3000],<br />
 		onCuepoint: function (clip, point, ui) {<br />
 		 $.fn.EmbedVideo.EmbedVideoAds(ui, 'LINK_POSITION', 'IMAGE_URL', 'LINK_URL', DISPLAY_TIME_MS);<br />	
 		}<br />
