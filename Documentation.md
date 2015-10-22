@@ -34,6 +34,8 @@ To run this plugin, simply use the following command:<br />
 <code>data: false,</code><br />
 <code>template: '',</code><br />
 <code>filter: '',</code><br />
+<code>playlist: [{ "title": "", "sort": null, "tags": [] }],</code><br />
+<code>autoplay: [{ "auto": true, "time": 30, "text": "will start in", "nextText": "Up Next", "slide": 200 }],</code><br />
 <code>debug: false,</code><br />
 <code>cuePoints: [],</code><br />
 
